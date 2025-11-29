@@ -1,13 +1,13 @@
 /* --- Variables & Design System --- */
 :root {
     /* Colors */
-    --color-bg: #F9F8F4;
-    /* Warm Cream */
-    --color-text: #1A1A1A;
-    /* Deep Charcoal */
-    --color-text-light: #555555;
-    --color-accent: #C5A059;
-    /* Muted Gold */
+    --color-bg: #FFFFFF;
+    /* Pure White */
+    --color-text: #111111;
+    /* Deep Black */
+    --color-text-light: #444444;
+    --color-accent: #8A0303;
+    /* Darker Cherry Red */
     --color-white: #FFFFFF;
 
     /* Typography */
@@ -150,13 +150,14 @@ p {
 }
 
 .btn-primary {
-    background-color: var(--color-text);
+    background-color: var(--color-accent);
     color: var(--color-white);
 }
 
 .btn-primary:hover {
-    background-color: var(--color-accent);
-    border-color: var(--color-accent);
+    background-color: #5e0202;
+    /* Deepest Red */
+    border-color: #5e0202;
 }
 
 .btn-secondary {
@@ -202,6 +203,7 @@ p {
     letter-spacing: 2px;
     font-weight: 600;
     justify-self: start;
+    color: var(--color-accent);
 }
 
 .nav-links {
